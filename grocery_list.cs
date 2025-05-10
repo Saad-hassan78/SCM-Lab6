@@ -10,6 +10,8 @@ class Program {
             "Apples",
             "Rice"
         };
+        groceries.Add("Chocolate");
+
 
         foreach (var item in groceries) {
             Console.WriteLine(item);
